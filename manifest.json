@@ -1,0 +1,42 @@
+{
+  "id": "./",
+  "name": "SirAud-Studio",
+  "short_name": "SirAud",
+  "description": "Offline text-to-speech studio with open-source voices, voice matching and an audio editor",
+  "lang": "en",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#061014",
+  "theme_color": "#061014",
+  "categories": [
+    "productivity",
+    "utilities",
+    "music"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
